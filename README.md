@@ -117,4 +117,4 @@ __Как решала:__
 ![](/Py5.png)
 
 >Ссылка на кейс находится в закрытом доступе, поскольку является интеллектуальной собственностью.
-[Исследование распределения клиентских платежей Python](https://drive.google.com/drive/folders/1zy6cJ-38ZPPoUw3AyeBVLHNPXMEgRP_t?usp=drive_link)
+>[Исследование распределения клиентских платежей Python](https://drive.google.com/drive/folders/1zy6cJ-38ZPPoUw3AyeBVLHNPXMEgRP_t?usp=drive_link)
