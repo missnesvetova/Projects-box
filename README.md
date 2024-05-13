@@ -122,24 +122,7 @@ __Как решала:__
 >
 >[Исследование распределения клиентских платежей Python](https://drive.google.com/drive/folders/1zy6cJ-38ZPPoUw3AyeBVLHNPXMEgRP_t?usp=drive_link)
 
-### <p> Кейс 4. Построение дашборда основных метрик CRM-рассылки в Yandex DataLens </p>
 
-<p> Дан датасет с информацией о датах отправки, количестве отправленных, дошедших, открытых писем и количестве кликов по ссылке в письме, а также ошибках. </p>
-
-![](/DL.png)
-
- __Задача__ - построить дашборд, на котором будет видна динамика основных метрик CRM-рассылки, а также выявить инсайты:
-
-1. Delivery rate -доля дошедших писем.
-2. Open rate - доля открытых писем.
-3. Click-Through Rate - доля переходов по ссылке из письма.
-4. Unscribe rate - доля отписок.
-
-![](/metr.png) 
-
-![](/dashb.png)
-
-> Ссылка на дашборд - [Дашборд DataLens](https://datalens.yandex.ru/b90pa76wrt52z-izmenenie-osnovnyh-metrik-rassylki-s-aprelya-2021-po-m)
 
 
 
