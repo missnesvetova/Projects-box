@@ -6,9 +6,9 @@
 <br>
 
 ### Навыки и технологии
-- Системы управления базами данных: PostgreSQL;
-- Языки программирования и библиотеки: Python (pandas, math, numpy, statistic и др).
-- Средства визуализации данных: PowerBI, DataLens, Matplotlib, seaborn.
+- Системы управления базами данных: PostgreSQL, MySQL;
+- Языки программирования и библиотеки: Python (pandas, math, numpy, scipy, statistic и др).
+- Средства визуализации данных: PowerBI, DataLens, Google Looker Studio, Matplotlib, seaborn.
 
 ### Проекты 
 
