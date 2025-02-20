@@ -121,7 +121,8 @@ __Как решала:__
 >[Исследование распределения клиентских платежей Python](https://drive.google.com/drive/folders/1zy6cJ-38ZPPoUw3AyeBVLHNPXMEgRP_t?usp=drive_link)
 
 
-# 📊 Анализ котировок Tesla и Rivian с использованием SQL, Power BI и Python
+
+# Анализ котировок Tesla и Rivian с использованием SQL, Power BI и Python 
 
 ## 🚀 Описание проекта
 В этом проекте я провела **сравнительный анализ фондовых котировок** Tesla и Rivian, используя данные **Alpha Vantage API**.  
@@ -144,7 +145,7 @@ __Как решала:__
 
 ---
 
-## 📥 **1. Сбор данных (Python + API Alpha Vantage)**
+## **1. Сбор данных (Python + API Alpha Vantage)**
 Я использовала **Alpha Vantage API** для получения данных по Tesla (TSLA) и Rivian (RIVN).  
 Данные обрабатывались с помощью **pandas**, а затем загружались в PostgreSQL.
 
@@ -155,7 +156,7 @@ import psycopg2
 import pandas as pd
 
 # API-запрос
-API_KEY = "ВАШ_КЛЮЧ"
+API_KEY = "КЛЮЧ"
 symbol = "TSLA"
 url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={symbol}&apikey={API_KEY}&outputsize=compact"
 
@@ -169,7 +170,7 @@ df.columns = ["date", "open", "high", "low", "close", "volume"]
 df["date"] = pd.to_datetime(df["date"])
 
 # Подключение к PostgreSQL и запись данных
-conn = psycopg2.connect(dbname="stocks_db", user="postgres", password="your_password", host="localhost")
+conn = psycopg2.connect(dbname="stocks_db", user="postgres", password="password", host="localhost")
 cursor = conn.cursor()
 
 insert_query = """
@@ -182,21 +183,3 @@ conn.commit()
 cursor.close()
 conn.close()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
